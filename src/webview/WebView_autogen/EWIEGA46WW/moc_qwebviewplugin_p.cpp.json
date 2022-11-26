@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "QWebViewPlugin",
+            "object": true,
+            "qualifiedClassName": "QWebViewPlugin",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qwebviewplugin_p.h",
+    "outputRevision": 68
+}

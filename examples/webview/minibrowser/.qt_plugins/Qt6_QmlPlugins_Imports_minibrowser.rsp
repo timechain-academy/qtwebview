@@ -1,0 +1,11 @@
+-rootPath
+/Users/git/qtwebview/examples/webview/minibrowser
+-cmake-output
+-output-file
+/Users/git/qtwebview/examples/webview/minibrowser/.qt_plugins/Qt6_QmlPlugins_Imports_minibrowser.cmake
+-importPath
+/Users/git/qtwebview/examples/webview/minibrowser
+-importPath
+/usr/local/share/qt/qml
+-qrcFiles
+/Users/git/qtwebview/examples/webview/minibrowser/.rcc/qml.qrc

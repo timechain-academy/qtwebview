@@ -1,0 +1,3 @@
+/Users/git/qtwebview/src/quick/WebViewQuick_autogen/include/../EWIEGA46WW/moc_qquickviewcontroller_p.cpp.json
+/Users/git/qtwebview/src/quick/WebViewQuick_autogen/include/../EWIEGA46WW/moc_qquickwebview_p.cpp.json
+/Users/git/qtwebview/src/quick/WebViewQuick_autogen/include/../EWIEGA46WW/moc_qquickwebviewloadrequest_p.cpp.json

@@ -1,0 +1,180 @@
+{
+	"BUILD_DIR" : "/Users/git/qtwebview/src/webview/WebView_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/git/qtwebview",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/git/qtwebview/src/webview",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/git/qtwebview/src/webview",
+	"CMAKE_EXECUTABLE" : "/usr/local/Cellar/cmake/3.25.0/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/git/qtwebview/src/webview/CMakeLists.txt",
+		"/usr/local/lib/cmake/Qt6/QtModuleConfig.cmake.in",
+		"/usr/local/Cellar/cmake/3.25.0/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in",
+		"/usr/local/lib/cmake/Qt6/QtCMakePackageVersionFile.cmake.in",
+		"/usr/local/lib/cmake/Qt6/ModuleDescription.json.in",
+		"/usr/local/lib/cmake/Qt6/QtFileConfigure.txt.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/git/qtwebview",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/git/qtwebview/src/webview/WebView_fake_header.h",
+			"Mu",
+			"EWIEGA46WW/moc_WebView_fake_header.cpp",
+			null
+		],
+		[
+			"/Users/git/qtwebview/src/webview/qabstractwebview_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qabstractwebview_p.cpp",
+			null
+		],
+		[
+			"/Users/git/qtwebview/src/webview/qnativeviewcontroller_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qnativeviewcontroller_p.cpp",
+			null
+		],
+		[
+			"/Users/git/qtwebview/src/webview/qtwebviewfunctions.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtwebviewfunctions.cpp",
+			null
+		],
+		[
+			"/Users/git/qtwebview/src/webview/qwebview_global.h",
+			"Mu",
+			"EWIEGA46WW/moc_qwebview_global.cpp",
+			null
+		],
+		[
+			"/Users/git/qtwebview/src/webview/qwebview_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qwebview_p.cpp",
+			null
+		],
+		[
+			"/Users/git/qtwebview/src/webview/qwebviewfactory_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qwebviewfactory_p.cpp",
+			null
+		],
+		[
+			"/Users/git/qtwebview/src/webview/qwebviewinterface_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qwebviewinterface_p.cpp",
+			null
+		],
+		[
+			"/Users/git/qtwebview/src/webview/qwebviewloadrequest_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qwebviewloadrequest_p.cpp",
+			null
+		],
+		[
+			"/Users/git/qtwebview/src/webview/qwebviewplugin_p.h",
+			"Mu",
+			"EWIEGA46WW/moc_qwebviewplugin_p.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/git/qtwebview/src/webview/WebView_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/git/qtwebview/src/webview/WebView_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"GL_SILENCE_DEPRECATION",
+		"QT_ASCII_CAST_WARNINGS",
+		"QT_BUILDING_QT",
+		"QT_BUILD_WEBVIEW_LIB",
+		"QT_CORE_LIB",
+		"QT_DEPRECATED_WARNINGS",
+		"QT_DEPRECATED_WARNINGS_SINCE=0x070000",
+		"QT_DISABLE_DEPRECATED_BEFORE=0x050000",
+		"QT_GUI_LIB",
+		"QT_MOC_COMPAT",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_EXCEPTIONS",
+		"QT_NO_JAVA_STYLE_ITERATORS",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_USE_QSTRINGBUILDER",
+		"WebView_EXPORTS",
+		"_LARGEFILE64_SOURCE",
+		"_LARGEFILE_SOURCE"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/git/qtwebview/include",
+		"/Users/git/qtwebview/include/QtWebView",
+		"/Users/git/qtwebview/lib/QtWebView.framework/Headers",
+		"/Users/git/qtwebview/src/webview",
+		"/Users/git/qtwebview/include/QtWebView/6.4.0",
+		"/Users/git/qtwebview/include/QtWebView/6.4.0/QtWebView",
+		"/usr/local/lib/QtCore.framework/Headers",
+		"/usr/local/lib/QtCore.framework",
+		"/usr/local/share/qt/mkspecs/macx-clang",
+		"/usr/local/include",
+		"/usr/local/lib/QtGui.framework/Headers",
+		"/usr/local/lib/QtGui.framework",
+		"/usr/local/lib/QtCore.framework/Headers/6.4.0",
+		"/usr/local/lib/QtCore.framework/Headers/6.4.0/QtCore",
+		"/usr/local/lib/QtGui.framework/Headers/6.4.0",
+		"/usr/local/lib/QtGui.framework/Headers/6.4.0/QtGui",
+		"/Volumes/git/XcodeVersions/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
+		"/Volumes/git/XcodeVersions/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include",
+		"/Volumes/git/XcodeVersions/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include",
+		"/Volumes/git/XcodeVersions/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_GADGET_EXPORT",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Volumes/git/XcodeVersions/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/local/Cellar/cmake/3.25.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/git/qtwebview/src/webview/WebView_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/Users/git/qtwebview/src/webview/CMakeFiles/WebView_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/local/share/qt/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 4,
+	"SETTINGS_FILE" : "/Users/git/qtwebview/src/webview/CMakeFiles/WebView_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/Users/git/qtwebview/src/webview/qtwebviewfunctions.cpp", "Mu", null ],
+		[ "/Users/git/qtwebview/src/webview/qwebview.cpp", "Mu", null ],
+		[ "/Users/git/qtwebview/src/webview/qwebviewfactory.cpp", "Mu", null ],
+		[
+			"/Users/git/qtwebview/src/webview/qwebviewloadrequest.cpp",
+			"Mu",
+			null
+		],
+		[ "/Users/git/qtwebview/src/webview/qwebviewplugin.cpp", "Mu", null ]
+	],
+	"VERBOSITY" : 0
+}

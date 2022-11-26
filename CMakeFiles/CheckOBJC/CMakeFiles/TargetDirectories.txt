@@ -1,0 +1,2 @@
+/Users/git/qtwebview/CMakeFiles/CheckOBJC/CMakeFiles/edit_cache.dir
+/Users/git/qtwebview/CMakeFiles/CheckOBJC/CMakeFiles/rebuild_cache.dir

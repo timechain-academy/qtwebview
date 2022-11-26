@@ -1,0 +1,1 @@
+FINAL_PRL_FILE_PATH = /Users/git/qtwebview/lib/QtWebView.framework/Versions/A/Resources/QtWebView.prl

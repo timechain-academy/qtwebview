@@ -22,7 +22,8 @@ public:
 QUrl Utils::fromUserInput(const QString& userInput)
 {
     if (userInput.isEmpty())
-        return QUrl::fromUserInput("about:blank");
+        // return QUrl::fromUserInput("about:blank");
+        return QUrl::fromUserInput("qrc:/main.qml");
     const QUrl result = QUrl::fromUserInput(userInput);
     return result.isValid() ? result : QUrl::fromUserInput("about:blank");
 }

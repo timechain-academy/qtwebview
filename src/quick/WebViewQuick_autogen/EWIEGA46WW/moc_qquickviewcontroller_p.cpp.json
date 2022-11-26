@@ -1,0 +1,45 @@
+{
+    "classes": [
+        {
+            "className": "QQuickViewController",
+            "object": true,
+            "qualifiedClassName": "QQuickViewController",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "window",
+                            "type": "QQuickWindow*"
+                        }
+                    ],
+                    "name": "onWindowChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "onVisibleChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "scheduleUpdatePolish",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "onSceneGraphInvalidated",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QQuickItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qquickviewcontroller_p.h",
+    "outputRevision": 68
+}

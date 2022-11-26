@@ -1,0 +1,18 @@
+Performing C++ SOURCE FILE Test HAVE_DASH_DASH_NO_UNDEFINED failed with the following output:
+Change Dir: /Users/git/qtwebview/CMakeFiles/CMakeScratch/TryCompile-lSwgYL
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6c150/fast && /Volumes/git/XcodeVersions/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6c150.dir/build.make CMakeFiles/cmTC_6c150.dir/build
+Building CXX object CMakeFiles/cmTC_6c150.dir/src.cxx.o
+/Volumes/git/XcodeVersions/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_DASH_DASH_NO_UNDEFINED  -isysroot /Volumes/git/XcodeVersions/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_6c150.dir/src.cxx.o -MF CMakeFiles/cmTC_6c150.dir/src.cxx.o.d -o CMakeFiles/cmTC_6c150.dir/src.cxx.o -c /Users/git/qtwebview/CMakeFiles/CMakeScratch/TryCompile-lSwgYL/src.cxx
+Linking CXX executable cmTC_6c150
+/usr/local/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c150.dir/link.txt --verbose=1
+/Volumes/git/XcodeVersions/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Volumes/git/XcodeVersions/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,--no-undefined CMakeFiles/cmTC_6c150.dir/src.cxx.o -o cmTC_6c150 
+ld: unknown option: --no-undefined
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6c150] Error 1
+make: *** [cmTC_6c150/fast] Error 2
+
+
+Source file was:
+int main() {}
+
