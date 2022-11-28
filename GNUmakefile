@@ -2,7 +2,7 @@
 init:initialize
 .PHONY:initialize
 initialize:
-	./initialize
+	$(MAKE) init -C tailnuxt
 .PHONY: nvm
 ##	:	nvm		 	install node version manager
 nvm:
