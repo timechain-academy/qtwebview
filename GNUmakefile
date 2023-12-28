@@ -29,6 +29,8 @@ tailnuxt-generate:
 tailnuxt-electron:
 	##electron http://localhost:3000 & $(MAKE) tailnuxt-dev
 	$(MAKE) tailnuxt-dev & electron http://localhost:3000
+tailnuxt-open:
+	$(MAKE) tailnuxt-dev & $(MAKE) open
 .PHONY: nvm
 .ONESHELL:
 ##:nvm 	install node version manager
@@ -38,7 +40,16 @@ nvm:
 minibrowser:
 	pushd examples/webview/minibrowser && make clean && popd
 	pushd examples/webview/minibrowser && make       && popd
+minibrowser-install:minibrowser
+	pushd examples/webview/minibrowser && make install && popd
+	mkdir -p ~/bin
+	~/bin/minibrowser.app ~/bin/minibrower-$(shell date +%s).app && \
+	mv examples/webview/minibrowser/minibrowser.app ~/bin/ || mv ~/bin/minibrowser.app ~/bin/minibrower-$(shell date +%s).app && \
+		mv examples/webview/minibrowser/minibrowser.app ~/bin/
+minibrowser-open:minibrowser-install
+	~/bin/minibrowser.app/Contents/MacOS/minibrowser https://github.com/timechain-academy/qtwebview
 open:
 	## ./examples/webview/minibrowser/minibrowser.app/Contents/MacOS/minibrowser  file://$(PWD)/tailnuxt/.output/server/index.mjs
-	./examples/webview/minibrowser/minibrowser.app/Contents/MacOS/minibrowser  https://localhost:3000
+	./examples/webview/minibrowser/minibrowser.app/Contents/MacOS/minibrowser  http://localhost:3000
+
 -include Makefile
