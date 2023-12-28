@@ -26,6 +26,9 @@ tailnuxt-dev:
 	$(MAKE) -C tailnuxt dev
 tailnuxt-generate:
 	$(MAKE) -C tailnuxt generate
+tailnuxt-electron:
+	##electron http://localhost:3000 & $(MAKE) tailnuxt-dev
+	$(MAKE) tailnuxt-dev & electron http://localhost:3000
 .PHONY: nvm
 .ONESHELL:
 ##:nvm 	install node version manager
