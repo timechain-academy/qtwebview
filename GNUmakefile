@@ -37,15 +37,15 @@ tailnuxt-open:
 nvm:
 	@curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash || git pull -C $(HOME)/.nvm
 	@echo "-------- Restart your terminal!!!! ---------"
+.PHONY: minibrowser
 minibrowser:
 	pushd examples/webview/minibrowser && make clean && popd
 	pushd examples/webview/minibrowser && make       && popd
 minibrowser-install:minibrowser
 	pushd examples/webview/minibrowser && make install && popd
 	mkdir -p ~/bin
-	~/bin/minibrowser.app ~/bin/minibrower-$(shell date +%s).app && \
-	mv examples/webview/minibrowser/minibrowser.app ~/bin/ || mv ~/bin/minibrowser.app ~/bin/minibrower-$(shell date +%s).app && \
-		mv examples/webview/minibrowser/minibrowser.app ~/bin/
+	mv ~/bin/minibrowser.app ~/bin/minibrower-$(shell date +%s).app || echo
+	mv examples/webview/minibrowser/minibrowser.app ~/bin/ || mv ~/bin/minibrowser.app ~/bin/minibrower-$(shell date +%s).app
 minibrowser-open:minibrowser-install
 	~/bin/minibrowser.app/Contents/MacOS/minibrowser https://github.com/timechain-academy/qtwebview
 open:
